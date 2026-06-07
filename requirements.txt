@@ -1,34 +1,27 @@
-# Core data manipulation and numerical operations
-pandas==2.2.0
-numpy==1.26.3
-scipy==1.12.0
+# Streamlit (will be installed automatically by Streamlit Cloud)
+streamlit
 
-# Machine learning - Updated to support Python 3.11+
-tensorflow>=2.16.0,<2.18.0
-scikit-learn>=1.3.0
+# Core data manipulation and numerical operations
+pandas>=2.0.0,<3.0.0
+numpy>=1.24.0,<2.0.0
+scipy>=1.10.0,<2.0.0
+
+# Machine learning - Compatible with Streamlit Cloud
+tensorflow>=2.13.0,<2.16.0
+scikit-learn>=1.3.0,<2.0.0
 
 # Time series forecasting
-statsmodels>=0.14.0  # For ARIMA
-arch>=6.2.0  # For GARCH models
+statsmodels>=0.14.0
+arch>=6.0.0
 
 # Excel file support
-openpyxl==3.1.2
+openpyxl>=3.1.0
 
 # Visualization
-matplotlib==3.8.2
+matplotlib>=3.7.0
 seaborn>=0.12.0
-plotly>=5.18.0
-kaleido>=0.2.1  # For plotly static image export
+plotly>=5.14.0
 
-# PDF Generation
+# PDF Generation (optional - remove if causing issues)
 reportlab>=4.0.0
-pillow>=10.0.0  # For image handling in PDFs
-
-# Testing
-pytest==8.0.0
-pytest-cov==4.1.0
-
-# Code quality
-black==24.1.1
-pylint==3.0.3
-mypy==1.8.0
+pillow>=10.0.0

@@ -1,0 +1,5 @@
+# System packages for Streamlit Cloud
+# These will be installed via apt-get
+
+# For matplotlib
+libgomp1
