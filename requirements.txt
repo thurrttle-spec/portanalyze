@@ -25,3 +25,5 @@ plotly>=5.14.0
 # PDF Generation (optional - remove if causing issues)
 reportlab>=4.0.0
 pillow>=10.0.0
+
+tensorflow-cpu==2.13.0
